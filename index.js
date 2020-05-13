@@ -3,5 +3,14 @@ function shout(strInput){
 }
 
 function whisper(strInput){
-  return strInput.toLowerCase();  
+  return strInput.toLowerCase();
+}
+
+function logShout(strInput) {
+  console.log(strInput.toUpperCase() )
+}
+
+
+function logWhisper(strInput) {
+  console.log(strInput.toLowerCase() )
 }
